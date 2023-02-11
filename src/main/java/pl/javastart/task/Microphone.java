@@ -10,7 +10,7 @@ public class Microphone {
     int bitRate;
     boolean isWireless;
 
-    Microphone(String prod, String mod, double pr, String typeOfTransducer, double minSample, double maxSample, int bRate,
+    Microphone(String prod, String mod, double pr, String typeOfTransducer, double minSample, double maxSample, int br,
                boolean wireless) {
         producer = prod;
         model = mod;
@@ -18,7 +18,7 @@ public class Microphone {
         transducerType = typeOfTransducer;
         minSampleRate = minSample;
         maxSampleRate = maxSample;
-        bitRate = bRate;
+        bitRate = br;
         isWireless = wireless;
     }
 }
